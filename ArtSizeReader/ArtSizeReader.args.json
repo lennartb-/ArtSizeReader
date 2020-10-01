@@ -1,0 +1,14 @@
+{
+  "FileVersion": 2,
+  "Id": "7efd3651-d74f-40ea-b714-90d9564193bd",
+  "Items": [
+    {
+      "Id": "b253e09f-fa1b-475e-8cf5-d6e5abfec463",
+      "Command": "-s 1000"
+    },
+    {
+      "Id": "9f58deb2-9d3d-461a-9a0e-0b583f6f5dc1",
+      "Command": "-i \"E:\\Media\\Music\\Amaranthe\""
+    }
+  ]
+}

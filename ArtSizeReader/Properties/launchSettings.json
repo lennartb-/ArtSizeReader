@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "ArtSizeReader": {
+      "commandName": "Project",
+      "commandLineArgs": "-s 1000 -i \"E:\\Media\\Music\\Amaranthe\""
+    }
+  }
+}

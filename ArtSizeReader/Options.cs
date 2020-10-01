@@ -1,14 +1,11 @@
 ﻿using CommandLine;
-using CommandLine.Text;
 
-namespace ArtSizeReader {
+namespace ArtSizeReader
+{
     public class Options {
         [Option('i', "input", Required = true,
           HelpText = "A file or directory to analyze.")]
         public string InputFile { get; set; }
-
-        [ParserState]
-        public IParserState LastParserState { get; set; }
 
         [Option('l', "logfile",
           HelpText = "Writes output into the specified file. If no directory is given, the current directory will be used.")]
@@ -33,10 +30,5 @@ namespace ArtSizeReader {
         [Option('m', "max-threshold",
           HelpText = "Can be used together with -t to define a maximum upper limit for covers, i.e. covers larger than this resolution will be reported. Format example: 1000x1000.")]
         public string MaxThreshold { get; set; }
-
-        [HelpOption]
-        public string GetUsage() {
-            return HelpText.AutoBuild(this, (HelpText current) => HelpText.DefaultParsingErrorsHandler(this, current));
-        }
     }
 }

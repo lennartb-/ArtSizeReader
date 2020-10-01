@@ -5,9 +5,7 @@ ArtSizeReader is a small commandline utility to check the size of covers in your
 
 Requires .NET Framework 4.0 or higher.
 
-Art Size Reader uses UltraID3Lib (http://home.fuse.net/honnert/UltraID3Lib/), an MP3 ID3 Tag Editor and MPEG Info Reader Library Copyright 2002 - 2010 Hundred Miles Software (Mitchell S. Honnert) for accessing the MP3 Tags and the Command Line Parser Library (https://commandline.codeplex.com).
-
-The downloads for current and previous version are hosted at Bintray: https://bintray.com/nan0/ArtSizeReader/ArtSizeReader
+Art Size Reader uses tTagLib# (https://github.com/mono/taglib-sharp) for accessing the MP3 Tags and the Command Line Parser Library (https://github.com/commandlineparser/commandline).
 
 Available arguments:
 

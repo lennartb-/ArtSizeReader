@@ -3,9 +3,9 @@ ArtSizeReader
 
 ArtSizeReader is a small commandline utility to check the size of covers in your digial music collection. This way you can quickly determine songs without covers or below a certain threshold (i.e. low resolution covers).
 
-Requires .NET Framework 4.0 or higher.
+Requires .NET 6 or higher.
 
-Art Size Reader uses tTagLib# (https://github.com/mono/taglib-sharp) for accessing the MP3 Tags and the Command Line Parser Library (https://github.com/commandlineparser/commandline).
+ArtSizeReader uses TagLib# (https://github.com/mono/taglib-sharp) for accessing the MP3 Tags and the Command Line Parser Library (https://github.com/commandlineparser/commandline).
 
 Available arguments:
 
